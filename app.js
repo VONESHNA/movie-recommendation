@@ -173,7 +173,7 @@ function detectmood(){
                                                                       genre=getgenre(genre);
                                                                       duration=getduation(duration);
                                                                       mood=getgenre(mood);
-                                                                      document.getElementById('movie').innerHTML='Generated Recommendation: "Based on your preferences, we recommend watching '+foundMovie+' a quirky '+genre+' film with a runtime of '+duration+', a perfect for a '+mood+' mood. Enjoy this '+genre+' packed feature firlm !" ';   
+                                                                      document.getElementById('movie').innerHTML='Generated Recommendation: "Based on your preferences, we recommend watching '+foundMovie+' a quirky '+genre+' film with a runtime of '+duration+', a perfect for a '+mood+' mood. Enjoy this '+genre+' packed feature film !" ';   
                                                                             //alert('genre'+genre+'duration'+duration+'mood'+mood);
                                                                           }
                                                         
