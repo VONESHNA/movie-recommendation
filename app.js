@@ -53,107 +53,107 @@ function detectmood(){
                                                                      }else{
                                                                       if(genre==1){
                                                                                     if(duration==1){
-                                                                                                    if(mood==1){getmovie(m1[0]);}
-                                                                                                    if(mood==2){getmovie(m1[1]);}
-                                                                                                    if(mood==3){getmovie(m1[2]);}
-                                                                                                    if(mood==4){getmovie(m1[3]);}
+                                                                                                    if(mood==1){foundMovie=getmovie(m1[0]);}
+                                                                                                    if(mood==2){foundMovie=getmovie(m1[1]);}
+                                                                                                    if(mood==3){foundMovie=getmovie(m1[2]);}
+                                                                                                    if(mood==4){foundMovie=getmovie(m1[3]);}
 
                                                                                     }
                                                                                     if(duration==2){
-                                                                                                    if(mood==1){getmovie(m2[0]);}
-                                                                                                    if(mood==2){getmovie(m2[1]);}
-                                                                                                    if(mood==3){getmovie(m2[2]);}
-                                                                                                    if(mood==4){getmovie(m2[3]);}
+                                                                                                    if(mood==1){foundMovie=getmovie(m2[0]);}
+                                                                                                    if(mood==2){foundMovie=getmovie(m2[1]);}
+                                                                                                    if(mood==3){foundMovie=getmovie(m2[2]);}
+                                                                                                    if(mood==4){foundMovie=getmovie(m2[3]);}
                                                                                     }
                                                                                     if(duration==3){
-                                                                                                    if(mood==1){getmovie(m3[0]);}
-                                                                                                    if(mood==2){getmovie(m3[1]);}
-                                                                                                    if(mood==3){getmovie(m3[2]);}
-                                                                                                    if(mood==4){getmovie(m3[3]);}
+                                                                                                    if(mood==1){foundMovie=getmovie(m3[0]);}
+                                                                                                    if(mood==2){foundMovie=getmovie(m3[1]);}
+                                                                                                    if(mood==3){foundMovie=getmovie(m3[2]);}
+                                                                                                    if(mood==4){foundMovie=getmovie(m3[3]);}
                                                                                     }
                                                                       }
-                                                                      if(genre==2){//getmovie(m4);
+                                                                      if(genre==2){//foundMovie=getmovie(m4);
                                                                         if(duration==1){
-                                                                                                    if(mood==1){getmovie(m4[0]);}
-                                                                                                    if(mood==2){getmovie(m4[1]);}
-                                                                                                    if(mood==3){getmovie(m4[2]);}
-                                                                                                    if(mood==4){getmovie(m4[3]);}
+                                                                                                    if(mood==1){foundMovie=getmovie(m4[0]);}
+                                                                                                    if(mood==2){foundMovie=getmovie(m4[1]);}
+                                                                                                    if(mood==3){foundMovie=getmovie(m4[2]);}
+                                                                                                    if(mood==4){foundMovie=getmovie(m4[3]);}
 
                                                                                     }
                                                                                     if(duration==2){
-                                                                                                    if(mood==1){getmovie(m5[0]);}
-                                                                                                    if(mood==2){getmovie(m5[1]);}
-                                                                                                    if(mood==3){getmovie(m5[2]);}
-                                                                                                    if(mood==4){getmovie(m5[3]);}
+                                                                                                    if(mood==1){foundMovie=getmovie(m5[0]);}
+                                                                                                    if(mood==2){foundMovie=getmovie(m5[1]);}
+                                                                                                    if(mood==3){foundMovie=getmovie(m5[2]);}
+                                                                                                    if(mood==4){foundMovie=getmovie(m5[3]);}
                                                                                     }
                                                                                     if(duration==3){
-                                                                                                    if(mood==1){getmovie(m6[0]);}
-                                                                                                    if(mood==2){getmovie(m6[1]);}
-                                                                                                    if(mood==3){getmovie(m6[2]);}
-                                                                                                    if(mood==4){getmovie(m6[3]);}
+                                                                                                    if(mood==1){foundMovie=getmovie(m6[0]);}
+                                                                                                    if(mood==2){foundMovie=getmovie(m6[1]);}
+                                                                                                    if(mood==3){foundMovie=getmovie(m6[2]);}
+                                                                                                    if(mood==4){foundMovie=getmovie(m6[3]);}
                                                                                     }
                                                                       }
-                                                                      if(genre==3){//getmovie(m7);
+                                                                      if(genre==3){//foundMovie=getmovie(m7);
                                                                                     if(duration==1){
-                                                                                                    if(mood==1){getmovie(m7[0]);}
-                                                                                                    if(mood==2){getmovie(m7[1]);}
-                                                                                                    if(mood==3){getmovie(m7[2]);}
-                                                                                                    if(mood==4){getmovie(m7[3]);}
+                                                                                                    if(mood==1){foundMovie=getmovie(m7[0]);}
+                                                                                                    if(mood==2){foundMovie=getmovie(m7[1]);}
+                                                                                                    if(mood==3){foundMovie=getmovie(m7[2]);}
+                                                                                                    if(mood==4){foundMovie=getmovie(m7[3]);}
 
                                                                                     }
                                                                                     if(duration==2){
-                                                                                                    if(mood==1){getmovie(m8[0]);}
-                                                                                                    if(mood==2){getmovie(m8[1]);}
-                                                                                                    if(mood==3){getmovie(m8[2]);}
-                                                                                                    if(mood==4){getmovie(m8[3]);}
+                                                                                                    if(mood==1){foundMovie=getmovie(m8[0]);}
+                                                                                                    if(mood==2){foundMovie=getmovie(m8[1]);}
+                                                                                                    if(mood==3){foundMovie=getmovie(m8[2]);}
+                                                                                                    if(mood==4){foundMovie=getmovie(m8[3]);}
                                                                                     }
                                                                                     if(duration==3){
-                                                                                                    if(mood==1){getmovie(m9[0]);}
-                                                                                                    if(mood==2){getmovie(m9[1]);}
-                                                                                                    if(mood==3){getmovie(m9[2]);}
-                                                                                                    if(mood==4){getmovie(m9[3]);}
+                                                                                                    if(mood==1){foundMovie=getmovie(m9[0]);}
+                                                                                                    if(mood==2){foundMovie=getmovie(m9[1]);}
+                                                                                                    if(mood==3){foundMovie=getmovie(m9[2]);}
+                                                                                                    if(mood==4){foundMovie=getmovie(m9[3]);}
                                                                                     }
                                                                       }
-                                                                      if(genre==4){//getmovie(m10);
+                                                                      if(genre==4){//foundMovie=getmovie(m10);
                                                                                     if(duration==1){
-                                                                                                    if(mood==1){getmovie(m10[0]);}
-                                                                                                    if(mood==2){getmovie(m10[1]);}
-                                                                                                    if(mood==3){getmovie(m10[2]);}
-                                                                                                    if(mood==4){getmovie(m10[3]);}
+                                                                                                    if(mood==1){foundMovie=getmovie(m10[0]);}
+                                                                                                    if(mood==2){foundMovie=getmovie(m10[1]);}
+                                                                                                    if(mood==3){foundMovie=getmovie(m10[2]);}
+                                                                                                    if(mood==4){foundMovie=getmovie(m10[3]);}
 
                                                                                     }
                                                                                     if(duration==2){
-                                                                                                    if(mood==1){getmovie(m11[0]);}
-                                                                                                    if(mood==2){getmovie(m11[1]);}
-                                                                                                    if(mood==3){getmovie(m11[2]);}
-                                                                                                    if(mood==4){getmovie(m11[3]);}
+                                                                                                    if(mood==1){foundMovie=getmovie(m11[0]);}
+                                                                                                    if(mood==2){foundMovie=getmovie(m11[1]);}
+                                                                                                    if(mood==3){foundMovie=getmovie(m11[2]);}
+                                                                                                    if(mood==4){foundMovie=getmovie(m11[3]);}
                                                                                     }
                                                                                     if(duration==3){
-                                                                                                    if(mood==1){getmovie(m12[0]);}
-                                                                                                    if(mood==2){getmovie(m12[1]);}
-                                                                                                    if(mood==3){getmovie(m12[2]);}
-                                                                                                    if(mood==4){getmovie(m12[3]);}
+                                                                                                    if(mood==1){foundMovie=getmovie(m12[0]);}
+                                                                                                    if(mood==2){foundMovie=getmovie(m12[1]);}
+                                                                                                    if(mood==3){foundMovie=getmovie(m12[2]);}
+                                                                                                    if(mood==4){foundMovie=getmovie(m12[3]);}
                                                                                     }
                                                                       }
-                                                                      if(genre==5){getmovie(m13);
+                                                                      if(genre==5){//foundMovie=getmovie(m13);
                                                                                     if(duration==1){
-                                                                                                    if(mood==1){getmovie(m13[0]);}
-                                                                                                    if(mood==2){getmovie(m13[1]);}
-                                                                                                    if(mood==3){getmovie(m13[2]);}
-                                                                                                    if(mood==4){getmovie(m13[3]);}
+                                                                                                    if(mood==1){foundMovie=getmovie(m13[0]);}
+                                                                                                    if(mood==2){foundMovie=getmovie(m13[1]);}
+                                                                                                    if(mood==3){foundMovie=getmovie(m13[2]);}
+                                                                                                    if(mood==4){foundMovie=getmovie(m13[3]);}
 
                                                                                     }
                                                                                     if(duration==2){
-                                                                                                    if(mood==1){getmovie(m14[0]);}
-                                                                                                    if(mood==2){getmovie(m14[1]);}
-                                                                                                    if(mood==3){getmovie(m14[2]);}
-                                                                                                    if(mood==4){getmovie(m14[3]);}
+                                                                                                    if(mood==1){foundMovie=getmovie(m14[0]);}
+                                                                                                    if(mood==2){foundMovie=getmovie(m14[1]);}
+                                                                                                    if(mood==3){foundMovie=getmovie(m14[2]);}
+                                                                                                    if(mood==4){foundMovie=getmovie(m14[3]);}
                                                                                     }
                                                                                     if(duration==3){
-                                                                                                    if(mood==1){getmovie(m15[0]);}
-                                                                                                    if(mood==2){getmovie(m15[1]);}
-                                                                                                    if(mood==3){getmovie(m15[2]);}
-                                                                                                    if(mood==4){getmovie(m15[3]);}
+                                                                                                    if(mood==1){foundMovie=getmovie(m15[0]);}
+                                                                                                    if(mood==2){foundMovie=getmovie(m15[1]);}
+                                                                                                    if(mood==3){foundMovie=getmovie(m15[2]);}
+                                                                                                    if(mood==4){foundMovie=getmovie(m15[3]);}
                                                                                     }
                                                                       }
                                                                       function getmovie(m1_15){
@@ -167,13 +167,13 @@ function detectmood(){
                                                                                                     return d[--duration];
                                                                                                    }
                                                                       function getmood(mood){ 
-                                                                                                    return m[--mood];
+                                                                                                    return m[mood];
                                                                                                    }
-                                                                      foundMovie=m1[0];
+                                                                      //foundMovie=m1[0];
                                                                       genre=getgenre(genre);
                                                                       duration=getduation(duration);
                                                                       mood=getgenre(mood);
-                                                                      document.getElementById('movie').innerHTML='Generated Recommendation: "Based on your preferences, we recommend watching '+foundMovie+' a quirky '+genre+' film with a runtime of '+duration+', a perfect for a '+mood+' mood. Enjoy this '+genre+' packed feature film !" ';   
+                                                                      document.getElementById('movie').innerHTML='Generated Recommendation: "Based on your preferences, we recommend watching "'+foundMovie+'" a quirky '+genre+' film with a runtime of '+duration+', a perfect for a '+mood+' mood. Enjoy this '+genre+' packed feature film !" ';   
                                                                             //alert('genre'+genre+'duration'+duration+'mood'+mood);
                                                                           }
                                                         
