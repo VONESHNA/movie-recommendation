@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js">
+
+
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+          <div>
+          <p>Movie Recommendation</p>  
+          </div>
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+           
+          </ul>
+        </nav>
+      </header>
+
+
+      <main>
+
+
+
+              <div>    
+                <div>
+                      <select name="genre" id="genre">
+                                              <option value="0">Select Genre</option>
+                                              <option value="1">Action</option>
+                                              <option value="2">Comedy</option>
+                                              <option value="3">Drama</option>
+                                              <option value="4">Horror</option>
+                                              <option value="5">Sci-Fi</option>
+                      </select>
+                  </div>
+                  <div>
+                      <select name="duration" id="duration">
+                                              <option value="0">Select Duartion</option>
+                                              <option value="1">Short</option>
+                                              <option value="2">Medium</option>
+                                              <option value="3">Long</option>
+                      </select>
+                  </div>
+                  <div>
+                      <select name="mood" id="mood" onchange="detectmood()">
+                                          <option value="0">Select Mood</option>
+                                          <option value="1">Happy</option>
+                                          <option value="2">Relaxed</option>
+                                          <option value="3">Excited</option>
+                                          <option value="4">Adventurous</option>
+                      </select>
+                  </div>
+              </div>
+
+              <div id="movie"></div>
+   
+      </main> 
+
+
+<footer>
+    <nav>
+      <div class="footer-content">
+
+      </div>
+      
+    </nav>
+  </footer>
+
+
+</body>
+</html>
